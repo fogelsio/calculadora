@@ -1,0 +1,44 @@
+:root{
+    --1color  : #acc2bf;
+    --2color: #0a191e;
+    --3color: #09b5cf;
+}
+.conteiner{
+    width: 400px;
+    height: 600px;
+    background-color:var(--1color);
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 460px;
+}
+.pantalla{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+}
+.controles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,82.5px);
+    gap: 10px;
+
+}
+.teclado{
+    font-size: 35px;
+    font-size: 900;
+    color: var(--2color);
+    background-color: aqua;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.teclado0{
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
